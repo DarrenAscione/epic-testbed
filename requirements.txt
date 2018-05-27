@@ -5,4 +5,5 @@ tensorflow
 coverage
 python-coveralls
 nose
+pyyaml
 

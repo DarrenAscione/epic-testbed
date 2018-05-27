@@ -1,6 +1,10 @@
 language: python
 python:
   - "2.7"
+env:
+  - $COVPYYAML=cov3-default,coveralls3
+  - $COVPYYAML=cov4-pyyaml,coveralls4
+  - $COVPYYAML=cov41-pyyaml,coveralls41
 install:
   - pip install -r requirements.txt
 script:
