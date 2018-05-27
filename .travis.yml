@@ -1,6 +1,13 @@
 language: python
 python:
   - "2.7"
+install:
+  - pip install -r requirements.txt
 script:
   - cd src/main/common
   - python util.py
+  - cd ../../test/common
+  - coverage run test_util.py
+  - coverage report
+after_success:
+  - coveralls

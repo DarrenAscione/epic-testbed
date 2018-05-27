@@ -3,5 +3,6 @@ tornado
 scikit-learn
 tensorflow
 coverage
-pytest-cov
+python-coveralls
+nose
 
