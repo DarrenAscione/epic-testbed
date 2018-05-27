@@ -1,5 +1,9 @@
 # EPIC Testbed Detection Mechanism
 
+[![Build Status](https://travis-ci.org/DarrenAscione/epic-testbed.svg?branch=master)](https://travis-ci.org/DarrenAscione/epic-testbed)
+
+
+
 ## Contents
 
 - [Setup](#setup)
