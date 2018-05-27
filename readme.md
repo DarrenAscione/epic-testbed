@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/DarrenAscione/epic-testbed.svg?branch=master)](https://travis-ci.org/DarrenAscione/epic-testbed)
 
-
+[![Coverage Status](https://coveralls.io/repos/github/DarrenAscione/epic-testbed/badge.svg?branch=master)](https://coveralls.io/github/DarrenAscione/epic-testbed?branch=master)
 
 ## Contents
 
