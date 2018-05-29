@@ -1,6 +1,6 @@
 import sys
 path = "/home/travis/build/DarrenAscione/epic-testbed/src/main/common"
-sys.path.append(path)
+sys.path.append(0,path)
 print sys.path
 
 

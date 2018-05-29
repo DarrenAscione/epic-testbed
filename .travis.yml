@@ -8,7 +8,6 @@ script:
   - cd src/main/common
   - python util.py
   - cd ../../test/common
-  - pwd
   - coverage run test_util.py
   - coverage report
 after_success:
