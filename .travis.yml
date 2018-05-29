@@ -4,8 +4,10 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - echo 'export PYTHONPATH="/home/travis/build/DarrenAscione/epic-testbed/src/main/common"' >>~/.bash_profile
+  - echo 'export PYTHONPATH=/home/travis/build/DarrenAscione/epic-testbed/src/main/common' >>~/.bash_profile
+  - python -c "import sys; print(sys.path)"
   - cd src/main/common
+  - pwd
   - python util.py
   - cd ../../test/common
   - python -c "import sys; print(sys.path)"
