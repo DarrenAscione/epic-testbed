@@ -6,13 +6,9 @@ install:
 env:
   - PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/tests:$TRAVIS_BUILD_DIR/src/main/common
 script:
-  - python setup.py
-  - python -c "import sys; print(sys.path)"
   - cd src/main/common
-  - pwd
   - python util.py
   - cd ../../test/common
-  - python -c "import sys; print(sys.path)"
   - coverage run test_util.py
   - coverage report
 after_success:
