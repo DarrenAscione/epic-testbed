@@ -1,5 +1,6 @@
 import unittest
 import util
+import sys
 
 class TestUtil(unittest.TestCase):
 
@@ -25,8 +26,6 @@ class TestUtil(unittest.TestCase):
 	def test_kurtosis(self):
 		result = round(util.kurtosis(alist),2)
 		self.assertEquals(result, -1.3)
-
-
 
 
 if __name__ == '__main__':

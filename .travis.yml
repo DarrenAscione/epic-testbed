@@ -4,7 +4,7 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - python setup.py
+  - echo 'export PYTHONPATH=/home/travis/build/DarrenAscione/epic-testbed/src/main/common' >>~/.bash_profile
   - cd src/main/common
   - python util.py
   - cd ../../test/common
