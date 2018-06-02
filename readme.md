@@ -19,17 +19,20 @@ pip install requirements.txt
 ```bash
 .
 ├── data
+│   ├── 40test.txt
+│   └── cipKiller40-50.pcap
 ├── readme.md
 ├── requirements.txt
 └── src
     ├── main
     │   └── common
-    │       ├── util.py
-    │       └── util.pyc
+    │       ├── pcaptxt.py
+    │       └── util.py
+    ├── setup.py
     └── test
         └── common
-            ├── test_util.py
-            └── test_util.pyc
+            ├── test_pcaptxt.py
+            └── test_util.py
 ```
 
 
