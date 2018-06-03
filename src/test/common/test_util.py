@@ -1,6 +1,5 @@
 import unittest
 import util
-import sys
 
 class TestUtil(unittest.TestCase):
 
